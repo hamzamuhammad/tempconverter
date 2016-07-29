@@ -76,4 +76,26 @@ class ConversionViewController: UIViewController, UITextFieldDelegate {
             return true
         }
     }
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+       
+        print("ConversionViewController loaded its view.")
+    }
+    
+    override func viewWillAppear(animated: Bool) {
+        let date = NSDate()
+        let calendar = NSCalendar.currentCalendar()
+        let components = calendar.components(NSCalendarUnit.Hour, fromDate: date)
+        let hour = components.hour
+        
+        if hour > 16 {
+            view.backgroundColor = UIColor.darkGrayColor()
+        }
+        else {
+            view.backgroundColor = UIColor.lightGrayColor()
+        }
+        
+        print("Current hour: \(hour)")
+    }
 }
