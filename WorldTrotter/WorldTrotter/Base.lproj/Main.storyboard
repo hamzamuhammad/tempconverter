@@ -88,14 +88,29 @@
             </objects>
             <point key="canvasLocation" x="23" y="448"/>
         </scene>
+        <!--Web-->
+        <scene sceneID="bRD-aO-xf6">
+            <objects>
+                <viewController id="Rkc-19-D6u" customClass="WebViewController" customModule="WorldTrotter" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="k3T-RP-dxv"/>
+                        <viewControllerLayoutGuide type="bottom" id="XkZ-5W-I7x"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="MD1-FM-VMJ">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Web" id="0wA-ry-XVJ"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="NIC-YG-hkc" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="637" y="-207"/>
+        </scene>
         <!--Map-->
         <scene sceneID="tuN-d3-cuy">
             <objects>
                 <viewController id="kf8-98-yxG" customClass="MapViewController" customModule="WorldTrotter" customModuleProvider="target" sceneMemberID="viewController">
-                    <mapView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" id="396-OE-gaS">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
-                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                    </mapView>
                     <tabBarItem key="tabBarItem" title="Map" image="MapIcon" id="JL5-kA-a9p"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Hbu-RZ-F2T" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -114,6 +129,7 @@
                     <connections>
                         <segue destination="BYZ-38-t0r" kind="relationship" relationship="viewControllers" id="dTV-BM-JLB"/>
                         <segue destination="kf8-98-yxG" kind="relationship" relationship="viewControllers" id="xBi-e4-kh1"/>
+                        <segue destination="Rkc-19-D6u" kind="relationship" relationship="viewControllers" id="eq9-Q4-qas"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="OAD-WN-QeO" userLabel="First Responder" sceneMemberID="firstResponder"/>

@@ -14,6 +14,7 @@
 		1F1870DB1D4B0BE100929217 /* ConversionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F1870DA1D4B0BE100929217 /* ConversionViewController.swift */; };
 		1F1870DD1D4C070A00929217 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F1870DC1D4C070A00929217 /* MapKit.framework */; };
 		1F1870DF1D4C105A00929217 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F1870DE1D4C105A00929217 /* MapViewController.swift */; };
+		1F1870E11D4C438500929217 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F1870E01D4C438500929217 /* WebViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		1F1870DA1D4B0BE100929217 /* ConversionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConversionViewController.swift; sourceTree = "<group>"; };
 		1F1870DC1D4C070A00929217 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		1F1870DE1D4C105A00929217 /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		1F1870E01D4C438500929217 /* WebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				1F1870C81D4AF33100929217 /* AppDelegate.swift */,
 				1F1870DA1D4B0BE100929217 /* ConversionViewController.swift */,
 				1F1870DE1D4C105A00929217 /* MapViewController.swift */,
+				1F1870E01D4C438500929217 /* WebViewController.swift */,
 				1F1870CC1D4AF33100929217 /* Main.storyboard */,
 				1F1870CF1D4AF33100929217 /* Assets.xcassets */,
 				1F1870D11D4AF33100929217 /* LaunchScreen.storyboard */,
@@ -145,6 +148,7 @@
 				1F1870DB1D4B0BE100929217 /* ConversionViewController.swift in Sources */,
 				1F1870DF1D4C105A00929217 /* MapViewController.swift in Sources */,
 				1F1870C91D4AF33100929217 /* AppDelegate.swift in Sources */,
+				1F1870E11D4C438500929217 /* WebViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
