@@ -16,6 +16,7 @@
 		1F1870DF1D4C105A00929217 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F1870DE1D4C105A00929217 /* MapViewController.swift */; };
 		1F1870E11D4C438500929217 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F1870E01D4C438500929217 /* WebViewController.swift */; };
 		1F1870E31D4C614E00929217 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F1870E21D4C614E00929217 /* Location.swift */; };
+		1F1870EA1D4C827200929217 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1F1870EC1D4C827200929217 /* Localizable.strings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,11 @@
 		1F1870DE1D4C105A00929217 /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		1F1870E01D4C438500929217 /* WebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
 		1F1870E21D4C614E00929217 /* Location.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
+		1F1870E51D4C7EA500929217 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
+		1F1870E71D4C7F5A00929217 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Main.strings; sourceTree = "<group>"; };
+		1F1870EB1D4C827200929217 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/Localizable.strings; sourceTree = "<group>"; };
+		1F1870ED1D4C827D00929217 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		1F1870EE1D4C827F00929217 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Localizable.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +73,7 @@
 				1F1870C81D4AF33100929217 /* AppDelegate.swift */,
 				1F1870DA1D4B0BE100929217 /* ConversionViewController.swift */,
 				1F1870DE1D4C105A00929217 /* MapViewController.swift */,
+				1F1870EC1D4C827200929217 /* Localizable.strings */,
 				1F1870E21D4C614E00929217 /* Location.swift */,
 				1F1870E01D4C438500929217 /* WebViewController.swift */,
 				1F1870CC1D4AF33100929217 /* Main.storyboard */,
@@ -119,6 +126,7 @@
 			knownRegions = (
 				en,
 				Base,
+				es,
 			);
 			mainGroup = 1F1870BC1D4AF33000929217;
 			productRefGroup = 1F1870C61D4AF33100929217 /* Products */;
@@ -136,6 +144,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1F1870D31D4AF33100929217 /* LaunchScreen.storyboard in Resources */,
+				1F1870EA1D4C827200929217 /* Localizable.strings in Resources */,
 				1F1870D01D4AF33100929217 /* Assets.xcassets in Resources */,
 				1F1870CE1D4AF33100929217 /* Main.storyboard in Resources */,
 			);
@@ -163,6 +172,8 @@
 			isa = PBXVariantGroup;
 			children = (
 				1F1870CD1D4AF33100929217 /* Base */,
+				1F1870E51D4C7EA500929217 /* en */,
+				1F1870E71D4C7F5A00929217 /* es */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -173,6 +184,16 @@
 				1F1870D21D4AF33100929217 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		1F1870EC1D4C827200929217 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1F1870EB1D4C827200929217 /* Base */,
+				1F1870ED1D4C827D00929217 /* en */,
+				1F1870EE1D4C827F00929217 /* es */,
+			);
+			name = Localizable.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
