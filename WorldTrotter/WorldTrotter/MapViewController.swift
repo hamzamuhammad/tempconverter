@@ -12,6 +12,9 @@ import MapKit
 class MapViewController: UIViewController, MKMapViewDelegate {
     var mapView: MKMapView!
     var locationManager: CLLocationManager!
+    var birthPlace: Location!
+    var currentHome: Location!
+    var summerVacation: Location!
     
     override func loadView() {
         // Create a map view
@@ -38,6 +41,16 @@ class MapViewController: UIViewController, MKMapViewDelegate {
         topConstraint.active = true
         leadingConstrant.active = true
         trailingConstraint.active = true
+        
+        birthPlace = Location(title: "Islamabad", coordinate: CLLocationCoordinate2D(latitude: 33.729388, longitude: 73.093146), info: "Where I was born")
+        currentHome = Location(title: "Austin", coordinate: CLLocationCoordinate2D(latitude: 30.267153,
+            longitude: -97.743061), info: "Where I am living")
+        summerVacation = Location(title: "Cancun", coordinate: CLLocationCoordinate2D(latitude: 21.161908,
+            longitude: -86.851528), info: "Where I have been")
+        
+        mapView.addAnnotation(birthPlace)
+        mapView.addAnnotation(currentHome)
+        mapView.addAnnotation(summerVacation)
         
     }
     
@@ -78,5 +91,9 @@ class MapViewController: UIViewController, MKMapViewDelegate {
     func mapTypeChangedResetView() {
         mapView.showsUserLocation = false
         mapView.region = MKCoordinateRegionForMapRect(MKMapRectWorld)
+    }
+    
+    @IBAction func cyclePins(sender: AnyObject) {
+        print("user touch activated")
     }
 }

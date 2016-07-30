@@ -91,7 +91,7 @@
         <!--Web-->
         <scene sceneID="bRD-aO-xf6">
             <objects>
-                <viewController id="Rkc-19-D6u" customClass="WebViewController" customModule="WorldTrotter" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="Rkc-19-D6u" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="k3T-RP-dxv"/>
                         <viewControllerLayoutGuide type="bottom" id="XkZ-5W-I7x"/>
@@ -114,6 +114,11 @@
                     <tabBarItem key="tabBarItem" title="Map" image="MapIcon" id="JL5-kA-a9p"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Hbu-RZ-F2T" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="1o7-nt-g6Q">
+                    <connections>
+                        <action selector="cyclePins:" destination="kf8-98-yxG" id="yyZ-PK-fVe"/>
+                    </connections>
+                </tapGestureRecognizer>
             </objects>
             <point key="canvasLocation" x="1449" y="448"/>
         </scene>
